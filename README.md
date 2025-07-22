@@ -1,2 +1,25 @@
-# Ejercicio-Estimacion_ATE_VCAP
-Diseñar e implementar una estrategia empírica para identificar y estimar el Efecto Promedio del Tratamiento (ATE) del plan sobre el saldo neto de capital líquido de los empleados (net_cap_bal).
+# Ejercicio ML
+
+## Crear y activar ambiente virtual (Windows)
+
+1. Abre PowerShell o CMD en la carpeta del proyecto.
+2. Ejecuta:
+
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+3. Instala las dependencias:
+
+```powershell
+pip install -r requirements.txt
+```
+
+4. Inicia Jupyter Notebook:
+
+```powershell
+jupyter notebook
+```
+
+Abre el archivo `Estimacion_ATE_VCAP.ipynb` para comenzar. 
